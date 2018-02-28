@@ -15,8 +15,7 @@ export default new Router({
         {
           path: "order/:storeId?/:orderId?",
           name: "order",
-          component: Order,
-          props: true
+          component: Order
         }
       ]
     }
